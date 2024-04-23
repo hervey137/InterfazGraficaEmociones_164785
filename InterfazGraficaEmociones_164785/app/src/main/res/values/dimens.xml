@@ -4,13 +4,4 @@
     <dimen name="menu_buttons_paddings">20dp</dimen>
     <dimen name="menu_buttons_margin">2dp</dimen>
     <dimen name="menu_buttons_text">10dp</dimen>
-
-    <!-- Dimens de Fernando Bocardo y Carlos Angulo -->
-    <dimen name="buttons">20sp</dimen>
-    <dimen name="titles">24sp</dimen>
-    <dimen name="titlesNew">26sp</dimen>
-    <dimen name="subtitles">20sp</dimen>
-    <dimen name="text">16sp</dimen>
-    <dimen name="buttonsLogin">22sp</dimen>
-    <!-- Dimens de Fernando Bocardo y Carlos Angulo -->
 </resources>
