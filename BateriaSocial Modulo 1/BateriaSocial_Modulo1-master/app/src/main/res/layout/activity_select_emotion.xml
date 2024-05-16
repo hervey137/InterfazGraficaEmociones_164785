@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="72dp"
+    android:background="@drawable/gradient_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RegisterEmotionActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="20dp"
+        android:layout_height="34dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_back"
+        android:scaleType="fitXY"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Selecciona una emoción"
+        android:textColor="@color/purple"
+        android:textSize="@dimen/titlesNew"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnAlegria"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_age"
+                    android:drawableTop="@drawable/alegria"
+                    android:text="Alegria"
+                    android:textAllCaps="false"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/buttons"
+                    android:elevation="5dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnTristeza"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_age"
+                    android:drawableTop="@drawable/tristeza"
+                    android:text="Tristeza"
+                    android:textAllCaps="false"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/buttons"
+                    android:elevation="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnConfianza"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_age"
+                    android:drawableTop="@drawable/angel"
+                    android:text="Confianza"
+                    android:textAllCaps="false"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/buttons"
+                    android:elevation="5dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnDesagrado"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_age"
+                    android:drawableTop="@drawable/desagrado1"
+                    android:text="Desagrado"
+                    android:textAllCaps="false"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/buttons"
+                    android:elevation="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnMiedo"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_age"
+                    android:drawableTop="@drawable/miedo"
+                    android:text="Miedo"
+                    android:textAllCaps="false"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/buttons"
+                    android:elevation="5dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnIra"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_age"
+                    android:drawableTop="@drawable/ira2"
+                    android:text="Ira"
+                    android:textAllCaps="false"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/buttons"
+                    android:elevation="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnSorpresa"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_age"
+                    android:drawableTop="@drawable/sorpresa2"
+                    android:text="Sorpresa"
+                    android:textAllCaps="false"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/buttons"
+                    android:elevation="5dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnAnticipacion"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_age"
+                    android:drawableTop="@drawable/anticipacion"
+                    android:text="Anticipación"
+                    android:textAllCaps="false"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/buttons"
+                    android:elevation="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="18dp"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:paddingBottom="32dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textColor="@color/text"
+            android:text="@string/next"
+            android:textSize="@dimen/buttons"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_register"
+            android:layout_marginBottom="32dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328864537604",
+    "project_id": "bateriasocial-773ad",
+    "storage_bucket": "bateriasocial-773ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328864537604:android:31e6f19493ed3dac686951",
+        "android_client_info": {
+          "package_name": "bocardo.fernando.socialbattery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNJuMhPoA0iyY4uCDtslmlAL5jaR6gJVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
